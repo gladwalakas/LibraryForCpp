@@ -147,7 +147,8 @@ Node* removeEvenNumbers(Node* root)
         return root;
 }
 
-int main() {
+int main() 
+{
     setlocale(LC_ALL, "RUS");
 
     vector<int> numbers = { 50, 25, 75, 12, 37, 62, 87, 4, 18, 30, 44, 55, 68, 80, 95 };
